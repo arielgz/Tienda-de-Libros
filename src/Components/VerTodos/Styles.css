@@ -1,0 +1,38 @@
+.card-container {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    width: 300px;
+    height: auto;
+
+}
+
+.card-img {
+    width: 100%;
+
+}
+.card-autor {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+.card-price {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.5rem; 
+}
+
+.card-btn button {
+    width: 200px;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: #E6D2AA;
+    color:black;
+    margin-left: 70px;
+    margin-top: 10px;
+    cursor: pointer;
+}

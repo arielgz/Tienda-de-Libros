@@ -1,4 +1,5 @@
 import { CartWidget } from "../CartWidget/Index";
+import { BrowserRoute, Routes, Route } from "react-router-dom";
 import '../Navbar/Styles.css'
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ const Navbar = () => {
             
             <nav className="links-nav">
                 <ul className="list-item">
-                    <li className="link-item"><a href="#vertodos">Ver Todos</a></li>
-                    <li className="link-item" ><a href="#Novelas">Novelas</a></li>
-                    <li className="link-item"><a href="#infantiles">Infantiles</a></li>
-                    <li className="link-item"><a href="#contacto">Contacto</a></li>
+                    <li className="link-item"><a href="/Ver Todos">Ver Todos</a></li>
+                    <li className="link-item" ><a href="/Novelas">Novelas</a></li>
+                    <li className="link-item"><a href="/Infantiles">Infantiles</a></li>
+                    <li className="link-item"><a href="/Contacto">Contacto</a></li>
                 </ul>
             </nav>
             <div className="cart-container">
